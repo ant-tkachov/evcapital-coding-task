@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class ConfigService {
-  private apiEndPoint: string = 'http://localhost:63327/api';
+  private apiEndPoint: string = 'http://localhost:5000/api';
 
   sessionIdEndPointUrl: string;
   allFundingsEndPointUrl: string;

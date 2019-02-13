@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EVCapital.CodingTask.Core\EVCapital.CodingTask.Core.csproj" />
+    <ProjectReference Include="..\EVCapital.CodingTask.DataLayer\EVCapital.CodingTask.DataLayer.csproj" />
+  </ItemGroup>
+
+</Project>

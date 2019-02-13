@@ -8,13 +8,14 @@ To run the API from the command line:
 2. Open `Developer Command Prompt for VS 2017` and navigate to the folder where the `EVCapital.CodingTask.sln` is located
 3. Run: `dotnet restore`
 4. Run: `dotnet run --project EVCapital.CodingTask.Api`
-5. Open a browser, copy and paste URL: [http://localhost:63327/swagger](http://localhost:63327/swagger)
-*Note*: in the provided description the assigned port number is 63327, in your case it can have another number.
+5. Open a browser, copy and paste URL: [http://localhost:5000/swagger](http://localhost:5000/swagger)
 
 To run the UI from the command line:
+
 1. Navigate to EVCapital.CodingTask.Web
-2. Run `ng serve --port 4444`
-3. Open `http://localhost:4444`
+2. Run `npm install`
+3. Run `ng serve --port 4444`
+4. Open `http://localhost:4444`
 
 ## Testing
 
@@ -38,4 +39,3 @@ Backend:
 
 Frontend:
 * EVCapital.CodingTask.Web
-
